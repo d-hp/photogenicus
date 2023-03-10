@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 17.5%;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+  margin: 25px 0 100px 0;
+  color: #2b6777;
+}
+
+.drop-status {
+  margin-top: 15px;
+  padding: 3px;
+}
+
+#webcam-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#webcam-container button {
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  border: none;
+  opacity: 100%;
+  background-color: #2b6777;
+  color: #f2f2f2;
+  font-weight: 700;
+}
+
+video {
+  max-width: 100%;
+}
+
+#webcam-container button:hover {
+  cursor: pointer;
+  background-color: #334a52;
+  background-color: #334a52;
+}
+#webcam-container button:active {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.filepond--wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.filepond--root {
+  height: 100%;
+  width: 100%;
+}
+
+.filepond--hopper {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  border-color: #e9b39e;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+}
+
+.bannerLogo {
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+.webcam-status {
+  margin-top: 15px;
+  padding: 3px;
+}
+
+.image-containers {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#2b6777, #2b6777) no-repeat center/2px 95%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.lkjDVC {
+  height: 417px;
+  width: 475px;
+  border: 4px solid #2b6777;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 125px;
+  border-radius: 10px;
+}
+
+.lkjDVC span {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.lkjDVC svg {
+  height: 100px;
+}
+
+.dmajdp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.upload-subtext,
+.capture-subtext,
+.webcam-status {
+  margin-bottom: 20px;
+  color: #2b6777;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 480px;
+  align-items: center;
+  padding: 30px;
+}
+
+.auth_status {
+  position: absolute;
+  top: 270px;
+  height: 325px;
+  width: 325px;
+  opacity: 0.75;
+}
